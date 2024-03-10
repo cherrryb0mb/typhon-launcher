@@ -1,0 +1,14 @@
+Compiling:
+===========
+If you have all dependencies installed (see "Requirements" in README)
+just run "cd build", "cmake ..", "make".
+
+To en-/disable optional features just look at the top of CMakeList.txt.
+comments are quite self explanatory.
+
+There's also a cmake.sh script, which you might want to use.
+
+Installation:
+===============
+just run "make install".
+

@@ -1,0 +1,212 @@
+<TyphonConfig>
+    <emu1 typ="map" id="0">
+        <emuargs typ="string" id="3">-antialias -sound -skip_gameinfo -multithreading -video opengl -keepaspect</emuargs>
+        <emulator typ="string" id="0">sdlmame</emulator>
+        <emutitle typ="string" id="1">MAME</emutitle>
+        <romiconspath typ="string" id="6">/path/to/MAME/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/MAME/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/MAME/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/MAME/romvideos</romvideospath>
+    </emu1>
+    <emu10 typ="map" id="9">
+        <emuargs typ="string" id="3">-sms.stretch 0 -fs 1 -vdriver 0</emuargs>
+        <emulator typ="string" id="0">mednafen</emulator>
+        <emutitle typ="string" id="1">Master System</emutitle>
+        <romiconspath typ="string" id="6">/path/to/SMS/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/SMS/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/SMS/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.sms</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/SMS/romvideos</romvideospath>
+    </emu10>
+    <emu11 typ="map" id="10">
+        <emuargs typ="string" id="3">-nes.stretch 0 -fs 1 -vdriver 0</emuargs>
+        <emulator typ="string" id="0">mednafen</emulator>
+        <emutitle typ="string" id="1">NES</emutitle>
+        <romiconspath typ="string" id="6">/path/to/NES/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/NES/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/NES/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/NES/romvideos</romvideospath>
+    </emu11>
+    <emu12 typ="map" id="11">
+        <emuargs typ="string" id="3">-gba.stretch 0 -fs 1 -vdriver 0</emuargs>
+        <emulator typ="string" id="0">mednafen</emulator>
+        <emutitle typ="string" id="1">Game Boy Advance</emutitle>
+        <romiconspath typ="string" id="6">/path/to/GBA/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/GBA/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/GBA/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/GBA/romvideos</romvideospath>
+    </emu12>
+    <emu13 typ="map" id="12">
+        <emuargs typ="string" id="3">-gb.stretch 0 -fs 1 -vdriver 0</emuargs>
+        <emulator typ="string" id="0">mednafen</emulator>
+        <emutitle typ="string" id="1">Game Boy Color</emutitle>
+        <romiconspath typ="string" id="6">/path/to/GBC/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/GBC/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/GBC/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/GBC/romvideos</romvideospath>
+    </emu13>
+    <emu14 typ="map" id="13">
+        <emuargs typ="string" id="3">-gb.stretch 0 -fs 1 -vdriver 0</emuargs>
+        <emulator typ="string" id="0">mednafen</emulator>
+        <emutitle typ="string" id="1">Game Boy</emutitle>
+        <romiconspath typ="string" id="6">/path/to/GB/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/GB/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/GB/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/GB/romvideos</romvideospath>
+    </emu14>
+    <emu15 typ="map" id="14">
+        <emuargs typ="string" id="3">-lynx.stretch 0 -fs 1 -vdriver 0</emuargs>
+        <emulator typ="string" id="0">mednafen</emulator>
+        <emutitle typ="string" id="1">Atari Lynx</emutitle>
+        <romiconspath typ="string" id="6">/path/to/LNX/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/LNX/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/LNX/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/LNX/romvideos</romvideospath>
+    </emu15>
+    <emu16 typ="map" id="15">
+        <emuargs typ="string" id="3"> </emuargs>
+        <emulator typ="string" id="0">whdrunner</emulator>
+        <emutitle typ="string" id="1">Amiga Whdload</emutitle>
+        <romiconspath typ="string" id="6">/path/to/WHD/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/WHD/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/WHD/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/WHD/romvideos</romvideospath>
+    </emu16>
+    <emu17 typ="map" id="16">
+        <emuargs typ="string" id="3">-nogui -runcd -cdfile</emuargs>
+        <emulator typ="string" id="0">pcsx</emulator>
+        <emutitle typ="string" id="1">Playstation 1</emutitle>
+        <romiconspath typ="string" id="6">/path/to/PS1/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/PS1/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/PS1/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.bin</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/PS1/romvideos</romvideospath>
+    </emu17>
+    <emu18 typ="map" id="17">
+        <emuargs typ="string" id="3">--nogui --fullscreen</emuargs>
+        <emulator typ="string" id="0">pcsx2</emulator>
+        <emutitle typ="string" id="1">Playstation 2</emutitle>
+        <romiconspath typ="string" id="6">/path/to/PS2/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/PS2/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/PS2/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.iso</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/PS2/romvideos</romvideospath>
+    </emu18>
+    <emu19 typ="map" id="18">
+        <emuargs typ="string" id="3"> </emuargs>
+        <emulator typ="string" id="0">sh</emulator>
+        <emutitle typ="string" id="1">Windows Games</emutitle>
+        <romiconspath typ="string" id="6">/path/to/WINE-SH-SCRIPTS/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/WINE-SH-SCRIPTS/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/WINE-SH-SCRIPTS/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.sh</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/WINE-SH-SCRIPTS/romvideos</romvideospath>
+    </emu19>
+    <emu2 typ="map" id="1">
+        <emuargs typ="string" id="3">-a -f -s -o </emuargs>
+        <emulator typ="string" id="0">hugo</emulator>
+        <emutitle typ="string" id="1">PC Engine</emutitle>
+        <romiconspath typ="string" id="6">/path/to/PCENGINE/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/PCENGINE/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/PCENGINE/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/PCENGINE/romvideos</romvideospath>
+    </emu2>
+    <emu20 typ="map" id="19">
+        <emuargs typ="string" id="3">-fullscreen</emuargs>
+        <emulator typ="string" id="0">x64</emulator>
+        <emutitle typ="string" id="1">C64</emutitle>
+        <romiconspath typ="string" id="6">/path/to/C64/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/C64/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/C64/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/C64/romvideos</romvideospath>
+    </emu20>
+    <emu21 typ="map" id="20">
+        <emuargs typ="string" id="3">--auto-pause --opengl-2d</emuargs>
+        <emulator typ="string" id="0">desmume-cli</emulator>
+        <emutitle typ="string" id="1">Nintendo DS</emutitle>
+        <romiconspath typ="string" id="6">/path/to/NDS/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/NDS/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/NDS/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.nds</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/NDS/romvideos</romvideospath>
+    </emu21>
+    <emu3 typ="map" id="2">
+        <emuargs typ="string" id="3">-fullscreen</emuargs>
+        <emulator typ="string" id="0">Fusion</emulator>
+        <emutitle typ="string" id="1">Sega 32X</emutitle>
+        <romiconspath typ="string" id="6">/path/to/32X/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/32X/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/32X/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/32X/romvideos</romvideospath>
+    </emu3>
+    <emu4 typ="map" id="3">
+        <emuargs typ="string" id="3">--fs --quickexit --enable-stretch --disable-fps --render-mode 12</emuargs>
+        <emulator typ="string" id="0">gens</emulator>
+        <emutitle typ="string" id="1">Mega Drive</emutitle>
+        <romiconspath typ="string" id="6">/path/to/MEGADRIVE/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/MEGADRIVE/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/MEGADRIVE/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/MEGADRIVE/romvideos</romvideospath>
+    </emu4>
+    <emu5 typ="map" id="4">
+        <emuargs typ="string" id="3">--nogui --noask --noosd --fullscreen</emuargs>
+        <emulator typ="string" id="0">mupen64plus</emulator>
+        <emutitle typ="string" id="1">Nintendo 64</emutitle>
+        <romiconspath typ="string" id="6">/path/to/N64/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/N64/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/N64/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.z64</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/N64/romvideos</romvideospath>
+    </emu5>
+    <emu6 typ="map" id="5">
+        <emuargs typ="string" id="3">-m -s -r 5 -k 75 -v 7</emuargs>
+        <emulator typ="string" id="0">zsnes</emulator>
+        <emutitle typ="string" id="1">Super Nintendo</emutitle>
+        <romiconspath typ="string" id="6">/path/to/SNES/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/SNES/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/SNES/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.zip</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/SNES/romvideos</romvideospath>
+    </emu6>
+    <emu7 typ="map" id="6">
+        <emuargs typ="string" id="3">-b -e</emuargs>
+        <emulator typ="string" id="0">dolphin-emu</emulator>
+        <emutitle typ="string" id="1">Game Cube/Wii</emutitle>
+        <romiconspath typ="string" id="6">/path/to/GC-WII/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/GC-WII/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/GC-WII/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.iso</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/GC-WII/romvideos</romvideospath>
+    </emu7>
+    <emu8 typ="map" id="7">
+        <emuargs typ="string" id="3"> </emuargs>
+        <emulator typ="string" id="0">fplaunch</emulator>
+        <emutitle typ="string" id="1">Future Pinball</emutitle>
+        <romiconspath typ="string" id="6">/path/to/FPT/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/FPT/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/FPT/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.fpt</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/FPT/romvideos</romvideospath>
+    </emu8>
+    <emu9 typ="map" id="8">
+        <emuargs typ="string" id="3">-gg.stretch 0 -fs 1 -vdriver 0</emuargs>
+        <emulator typ="string" id="0">mednafen</emulator>
+        <emutitle typ="string" id="1">Game Gear</emutitle>
+        <romiconspath typ="string" id="6">/path/to/GG/romicons</romiconspath>
+        <rompath typ="string" id="2">/path/to/GG/roms</rompath>
+        <rompicturespath typ="string" id="5">/path/to/GG/rompictures</rompicturespath>
+        <romsuffix typ="string" id="4">.gg</romsuffix>
+        <romvideospath typ="string" id="7">/path/to/GG/romvideos</romvideospath>
+    </emu9>
+</TyphonConfig>

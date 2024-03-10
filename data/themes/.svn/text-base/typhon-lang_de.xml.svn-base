@@ -1,0 +1,116 @@
+<TyphonConfig>
+    <boxart typ="string" id="66">hole boxart</boxart>
+    <cantstart typ="string" id="29">nicht ausführbar:</cantstart>
+    <cantwrite typ="string" id="27">nicht schreibbar</cantwrite>
+    <changed typ="string" id="9">gewechselt</changed>
+    <changedata typ="string" id="55">um Datei zu wechseln</changedata>
+    <changeemu typ="string" id="44">um Emulator zu wechseln</changeemu>
+    <changemenu typ="string" id="59">um Menu zu wechseln</changemenu>
+    <changemenuiconoff typ="string" id="23">menuicon Auswahlmodus deaktiviert</changemenuiconoff>
+    <changemenuiconon typ="string" id="22">menuicon Auswahlmodus aktiviert</changemenuiconon>
+    <changeobject typ="string" id="62">um Objekt zu wechseln</changeobject>
+    <changeshader typ="string" id="20">gewechselt zu Shader:</changeshader>
+    <changetheme typ="string" id="8">gewechselt zu Typhon Theme:</changetheme>
+    <changewpoff typ="string" id="25">Hintergrund Auswahlmodus deaktivert</changewpoff>
+    <changewpon typ="string" id="24">Hintergrund Auswahlmodus aktivert</changewpon>
+    <chemu typ="string" id="40">um Emulator zu wechseln</chemu>
+    <cmdargs typ="string" id="50">Kommandozeilenparameter</cmdargs>
+    <colorpickoff typ="string" id="33">Farbpicking deaktiviert</colorpickoff>
+    <colorpickon typ="string" id="32">Farbpicking aktiviert - klicke und halte Objekt und bewege Maus zur Farbauswahl</colorpickon>
+    <createdby typ="string" id="10">erstellt von</createdby>
+    <disabled typ="string" id="48">deaktivert</disabled>
+    <edemu typ="string" id="39"> um Emulator zu bearbeiten</edemu>
+    <editmode typ="string" id="12">Bearbeitungsmodus:</editmode>
+    <edpath typ="string" id="37"> um Pfad zu bearbeiten</edpath>
+    <emulisttitle typ="string" id="41">Emulatoren</emulisttitle>
+    <enabled typ="string" id="53">aktiviert</enabled>
+    <everything typ="string" id="68">hole alles</everything>
+    <export typ="string" id="6">exportiert als</export>
+    <exportas typ="string" id="52">exportiere Theme als</exportas>
+    <fanart typ="string" id="67">hole fanart</fanart>
+    <free typ="string" id="14">frei</free>
+    <freemem typ="string" id="15">benutzter Speicher</freemem>
+    <helpscreens typ="map">
+        <helpscreenlist typ="string" id="0">Hilfemenüliste</helpscreenlist>
+        <hotkeylist typ="string" id="1">Tastenkürzel Liste</hotkeylist>
+        <joypadbuttons typ="string" id="2">Joypad Belegung</joypadbuttons>
+        <themepaths typ="string" id="3">Theme Pfade</themepaths>
+        <themeswitches typ="string" id="4">Theme Schalter</themeswitches>
+        <globalswitches typ="string" id="5">globale Schalter</globalswitches>
+        <emulatorsettings typ="string" id="6">Emulator Einstellungen</emulatorsettings>
+        <themeints typ="string" id="7">Theme Integer</themeints>
+        <globalints typ="string" id="8">globale Integer</globalints>
+        <themefloats typ="string" id="9">Theme floats</themefloats>
+        <themefiles typ="string" id="10">Theme Dateien</themefiles>
+        <globalstrings typ="string" id="11">globale Strings</globalstrings>
+        <globalpaths typ="string" id="12">globale Pfade</globalpaths>
+        <onlinethemes typ="string" id="13">online themes</onlinethemes>
+        <objects typ="string" id="14">Objekte</objects>
+    </helpscreens>
+    <hotkey typ="string" id="19"> um Hotkey zu ändern für:</hotkey>
+    <mapbutton typ="string" id="38"> um Joypad Knopf neu zu belegen:</mapbutton>
+    <menueditmode typ="string" id="54">Menü Bearbeitungsmodus</menueditmode>
+    <menuentries typ="string" id="49">Menüeinträge</menuentries>
+    <menurange typ="string" id="67">Menü muss zwischen 1 und 7 liegen</menurange>
+    <missingarg typ="string" id="68">benötigt ein -m Argument - beende Programm</missingarg>
+    <mousepickoff typ="string" id="31">Maus picking deaktiviert</mousepickoff>
+    <mousepickon typ="string" id="30">lmb bewegen - mmb blockieren - rmb skalieren - mausrad z-pos</mousepickon>
+    <noscrape typ="string" id="64">keinen gültigen Scrapemodus angegeben - beende Programm</noscrape>
+    <notreadable typ="string" id="28">nicht lesbar</notreadable>
+    <notavailable typ="string" id="63">nicht vorhanden</notavailable>
+    <online typ="string" id="61">um online Theme zu importieren</online>
+    <or typ="string" id="47">oder</or>
+    <patient typ="string" id="65">bitte haben Sie etwas Geduld</patient>
+    <p3tlisttitle typ="string" id="43">p3t themes</p3tlisttitle>
+    <picked typ="string" id="3">picked:</picked>
+    <pmd typ="string" id="21">pmd gewechselt auf:</pmd>
+    <press typ="string" id="17">drücke</press>
+    <rominfo typ="string" id="65">hole Rominformationen</rominfo>
+    <rotationpickoff typ="string" id="2">rotationspicking deaktivert</rotationpickoff>
+    <rotationpickon typ="string" id="1">rotationspicking aktiviert</rotationpickon>
+    <saved typ="string" id="7">gespeichert:</saved>
+    <savedall typ="string" id="0">alle globalen Einstellungen gespeichert</savedall>
+    <searchmode typ="string" id="13">Suche:</searchmode>
+    <settingspickoff typ="string" id="35">settingspicking deaktivert</settingspickoff>
+    <settingspickon typ="string" id="34">settingspicking aktivert - LMB um Objekt zu de-aktivieren</settingspickon>
+    <stringedit typ="string" id="56">um string zu bearbeiten</stringedit>
+    <themelisttitle typ="string" id="60"> typhon Themes</themelisttitle>
+    <title typ="string" id="51">Menütitel</title>
+    <to typ="string" id="11">zu</to>
+    <togswitch typ="string" id="36"> um Schalter umzulegen für:</togswitch>
+    <totalmem typ="string" id="16">kompletter Speicher</totalmem>
+    <uptime typ="string" id="18">Laufzeit</uptime>
+    <usage typ="map">
+        <u_0 typ="string" id="0"> </u_0>
+        <u_1 typ="string" id="1">Benutzung: typhon [OPTION …]</u_1>
+        <u_10 typ="string" id="10">......................................erlaubt sind:</u_10>
+        <u_11 typ="string" id="11">......................................- native typhon Themes als tgz</u_11>
+        <u_12 typ="string" id="12">......................................- ps3 &quot;.p3t&quot; Themes</u_12>
+        <u_13 typ="string" id="13">......................................- generische Archive für initiellen Import</u_13>
+        <u_14 typ="string" id="14">......................................- ein jpg Bild</u_14>
+        <u_15 typ="string" id="15"> </u_15>
+        <u_16 typ="string" id="16"> </u_16>
+        <u_17 typ="string" id="17">--lang..[name]........................setze Sprache - wenn sie nicht existiert wird sie mit englischen defaults angelegt</u_17>
+        <u_18 typ="string" id="18">-le, --listexported...................liste exportiere typhonthemes unter ~/.config/typhon/export/ </u_18>
+        <u_19 typ="string" id="19">-lo, --listonline.....................liste online verfügbare Themes</u_19>
+        <u_20 typ="string" id="20">-fm, --fillmenu [/pfad/zu/Programmen].benötigt -m Argument - befüllt Menu m mit programmen aus with programs found in path </u_20>
+        <u_21 typ="string" id="21">-m, --menu [1-7]......................wird für-fm benötigt - gibt Menü an , welches mit Programmen gefüllt werden soll </u_21>
+        <u_22 typ="string" id="22">-s, --scrape [mode]....................mode kann 'rominfo','boxart','fanart' oder 'all' sein</u_22>
+        <u_2 typ="string" id="2">-t, --theme  [Themename]...............startet mit typhon Theme - wird erstellt wenn es nicht existiert</u_2>
+        <u_3 typ="string" id="3">-l, --listthemes......................liste installierte typhon Themes</u_3>
+        <u_4 typ="string" id="4">-lp, --listp3t........................liste installierte p3t Themes</u_4>
+        <u_5 typ="string" id="5">-p, --p3t [theme].....................starte mit p3t Theme</u_5>
+        <u_6 typ="string" id="6">-ar, --autores........................schalte konfigurierten autoresolution Schalter um</u_6>
+        <u_7 typ="string" id="7">-x $sizex, -y $sizey..................übergebe Breite und Höhe (höhere Priorität als konfigurierte Grösse bzw Autoerkennung)</u_7>
+        <u_8 typ="string" id="8">-i /path/to/foo.(rar|zip|p3t|jpg).....importiere (externe) Themes als natives typhon Themes</u_8>
+        <u_9 typ="string" id="9">......................................bei exportierten typhon Themes und installierten p3ts reicht ein relativer Pfad</u_9>
+    </usage>
+    <value typ="string" id="46">um Wert zu ändern für:</value>
+    <valuespeed typ="string" id="26">changevaluespeed gesetzt auf</valuespeed>
+    <videolisttitle typ="string" id="42">Filme</videolisttitle>
+    <videovolume typ="string" id="5">Videolautstärke gesetzt auf</videovolume>
+    <vmd typ="string" id="45">vmd gewechselt auf:</vmd>
+    <xyrot typ="string" id="57">X,Y Rotation aktiviert</xyrot>
+    <zrot typ="string" id="58">Z Rotation aktiviert</zrot>
+    <zpos typ="string" id="4">Z-Position gesetzt auf</zpos>
+</TyphonConfig>

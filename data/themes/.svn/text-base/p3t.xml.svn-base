@@ -1,0 +1,1227 @@
+<TyphonConfig>
+    <files typ="map">
+        <fontfile typ="string" id="0">Tuffy-Bold.ttf</fontfile>
+        <mmdmodelfile typ="string" id="3">Miku_Hatsune.pmd</mmdmodelfile>
+        <mmdmotionfile typ="string" id="4">motion.vmd</mmdmotionfile>
+        <musicfile typ="string" id="1">default.mp3</musicfile>
+        <soundfile typ="string" id="2">cursor.wav</soundfile>
+    </files>
+    <floats typ="map">
+        <dropshadowstrength typ="float" id="0">0.7</dropshadowstrength>
+        <menufadeduration typ="float" id="1">25</menufadeduration>
+        <menufadespeed typ="float" id="2">5</menufadespeed>
+        <menuiconscale typ="float" id="4">1.2</menuiconscale>
+        <menuiconscrollspeed typ="float" id="5">25</menuiconscrollspeed>
+        <menuiconspace typ="float" id="6">200</menuiconspace>
+        <menuselcoltime typ="float" id="3">1</menuselcoltime>
+        <mousewheelwait typ="float" id="8">0.5</mousewheelwait>
+        <shaderspeed typ="float" id="7">0.01</shaderspeed>
+    </floats>
+    <ints typ="map">
+        <autorotatespeed typ="int" id="20">1</autorotatespeed>
+        <clockformat typ="int" id="0">2</clockformat>
+        <dateformat typ="int" id="1">3</dateformat>
+        <dropshadow typ="int" id="2">1</dropshadow>
+        <menualign typ="int" id="3">1</menualign>
+        <menucurve typ="int" id="4">0</menucurve>
+        <menuicondockstyle typ="int" id="10">1</menuicondockstyle>
+        <menuicontype typ="int" id="11">0</menuicontype>
+        <menuiconxmbmode typ="int" id="12">1</menuiconxmbmode>
+        <menulistmax typ="int" id="5">10</menulistmax>
+        <menulistmin typ="int" id="6">10</menulistmin>
+        <menumaxtextlength typ="int" id="7">26</menumaxtextlength>
+        <menumaxtextsellength typ="int" id="8">19</menumaxtextsellength>
+        <menumaxwidth typ="int" id="9">650</menumaxwidth>
+        <musicvolume typ="int" id="19">100</musicvolume>
+        <notifierduration typ="int" id="13">5</notifierduration>
+        <rectboxlinewidth typ="int" id="14">1</rectboxlinewidth>
+        <shadertexture typ="int" id="16">2</shadertexture>
+        <titlealign typ="int" id="15">3</titlealign>
+        <videovolume typ="int" id="18">100</videovolume>
+        <wallpaperblendeffect typ="int" id="17">1</wallpaperblendeffect>
+    </ints>
+    <objects typ="map">
+        <clock typ="map" id="0">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">1644</posx>
+            <posy typ="int">114</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">29</size>
+        </clock>
+        <coop typ="map" id="64">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">50</posx>
+            <posy typ="int">50</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </coop>
+        <cpu typ="map" id="1">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">320</posx>
+            <posy typ="int">896</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">26</size>
+        </cpu>
+        <custom1 typ="map" id="2">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">false</enabled>
+            <height typ="int">154</height>
+            <posx typ="int">39</posx>
+            <posy typ="int">532</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">210</width>
+        </custom1>
+        <custom2 typ="map" id="3">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">false</enabled>
+            <height typ="int">154</height>
+            <posx typ="int">40</posx>
+            <posy typ="int">704</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">208</width>
+        </custom2>
+        <custom3 typ="map" id="4">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">false</enabled>
+            <height typ="int">156</height>
+            <posx typ="int">41</posx>
+            <posy typ="int">879</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">209</width>
+        </custom3>
+        <date typ="map" id="5">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">1551</posx>
+            <posy typ="int">114</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">29</size>
+        </date>
+        <description typ="map" id="65">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">1196</posx>
+            <posy typ="int">500</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </description>
+        <developer typ="map" id="66">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">50</posx>
+            <posy typ="int">150</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </developer>
+        <disk1 typ="map" id="6">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">665</posx>
+            <posy typ="int">1025</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </disk1>
+        <disk2 typ="map" id="7">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">322</posx>
+            <posy typ="int">1000</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </disk2>
+        <disk3 typ="map" id="8">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">321</posx>
+            <posy typ="int">863</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </disk3>
+        <entrycount typ="map" id="48">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">715</posx>
+            <posy typ="int">1000</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </entrycount>
+        <entrycur typ="map" id="49">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">655</posx>
+            <posy typ="int">1000</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </entrycur>
+        <esrb typ="map" id="67">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">50</posx>
+            <posy typ="int">200</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </esrb>
+        <freemem typ="map" id="9">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">318</posx>
+            <posy typ="int">1031</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </freemem>
+        <icon typ="map" id="10">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">162</height>
+            <posx typ="int">462</posx>
+            <posy typ="int">425</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">189</width>
+        </icon>
+        <menu typ="map" id="11">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <menuselfont typ="map">
+                <B typ="int">190</B>
+                <G typ="int">100</G>
+                <R typ="int">100</R>
+            </menuselfont>
+            <menuselfontsize typ="int">40</menuselfontsize>
+            <posx typ="int">669</posx>
+            <posy typ="int">519</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">31</size>
+        </menu>
+        <menuicon typ="map" id="42">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">109</height>
+            <posx typ="int">515</posx>
+            <posy typ="int">236</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">122</width>
+        </menuicon>
+        <menumax1 typ="map" id="22">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">84</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax1>
+        <menumax10 typ="map" id="31">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">840</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax10>
+        <menumax11 typ="map" id="32">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">924</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax11>
+        <menumax12 typ="map" id="33">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1008</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax12>
+        <menumax13 typ="map" id="34">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1092</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax13>
+        <menumax14 typ="map" id="35">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1176</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax14>
+        <menumax15 typ="map" id="36">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1260</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax15>
+        <menumax16 typ="map" id="37">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1344</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax16>
+        <menumax17 typ="map" id="38">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1428</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax17>
+        <menumax18 typ="map" id="39">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1512</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax18>
+        <menumax19 typ="map" id="40">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1596</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax19>
+        <menumax2 typ="map" id="23">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">168</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax2>
+        <menumax20 typ="map" id="41">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">1680</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax20>
+        <menumax3 typ="map" id="24">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">252</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax3>
+        <menumax4 typ="map" id="25">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">336</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax4>
+        <menumax5 typ="map" id="26">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">420</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax5>
+        <menumax6 typ="map" id="27">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">504</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax6>
+        <menumax7 typ="map" id="28">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">588</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax7>
+        <menumax8 typ="map" id="29">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">672</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax8>
+        <menumax9 typ="map" id="30">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">756</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumax9>
+        <menumin1 typ="map" id="12">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">338</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin1>
+        <menumin10 typ="map" id="21">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">840</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin10>
+        <menumin2 typ="map" id="13">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">420</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin2>
+        <menumin3 typ="map" id="14">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">504</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin3>
+        <menumin4 typ="map" id="15">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">336</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin4>
+        <menumin5 typ="map" id="16">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">420</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin5>
+        <menumin6 typ="map" id="17">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">504</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin6>
+        <menumin7 typ="map" id="18">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">588</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin7>
+        <menumin8 typ="map" id="19">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">672</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin8>
+        <menumin9 typ="map" id="20">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">0</posx>
+            <posy typ="int">756</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </menumin9>
+        <mmd typ="map" id="43">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <depth typ="float">14</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">147</posx>
+            <posy typ="int">345</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <scalex typ="int">14</scalex>
+            <scaley typ="int">14</scaley>
+        </mmd>
+        <musictitle typ="map" id="62">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">673</posx>
+            <posy typ="int">1000</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">10</size>
+        </musictitle>
+        <myip typ="map" id="44">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">324</posx>
+            <posy typ="int">967</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </myip>
+        <notifier typ="map" id="45">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <posx typ="int">998</posx>
+            <posy typ="int">1035</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">33</size>
+        </notifier>
+        <platform typ="map" id="68">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">50</posx>
+            <posy typ="int">250</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">17</size>
+        </platform>
+        <preview typ="map" id="46">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <effect typ="int">0</effect>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">328</height>
+            <posx typ="int">1144</posx>
+            <posy typ="int">474</posy>
+            <posz typ="int">2</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">464</width>
+        </preview>
+        <previewreflection typ="map" id="63">
+            <A typ="int">35</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <effect typ="int">0</effect>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">-187</height>
+            <posx typ="int">1139</posx>
+            <posy typ="int">982</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">475</width>
+        </previewreflection>
+        <publisher typ="map" id="69">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">50</posx>
+            <posy typ="int">300</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </publisher>
+        <rectbox typ="map" id="47">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">87</height>
+            <posx typ="int">1333</posx>
+            <posy typ="int">72</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">616</width>
+        </rectbox>
+        <reldate typ="map" id="70">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">50</posx>
+            <posy typ="int">350</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </reldate>
+        <rombox typ="map" id="71">
+            <A typ="int">55</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <back typ="string">0</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">424</height>
+            <posx typ="int">1180</posx>
+            <posy typ="int">473</posy>
+            <posz typ="int">10</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">638</width>
+        </rombox>
+        <romtitle typ="map" id="72">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">50</posx>
+            <posy typ="int">200</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">20</size>
+        </romtitle>
+        <rss typ="map" id="50">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">1920</posx>
+            <posy typ="int">1020</posy>
+            <posz typ="int">5</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">36</size>
+            <speed typ="int">5</speed>
+        </rss>
+        <searcheditbox typ="map" id="51">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">130</height>
+            <posx typ="int">770</posx>
+            <posy typ="int">560</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </searcheditbox>
+        <setbox typ="map" id="52">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">1070</height>
+            <posx typ="int">5</posx>
+            <posy typ="int">5</posy>
+            <posz typ="int">10</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">30</size>
+            <width typ="int">1910</width>
+        </setbox>
+        <slide1 typ="map" id="53">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">false</enabled>
+            <height typ="int">1080</height>
+            <posx typ="int">0</posx>
+            <posy typ="int">0</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">1920</width>
+        </slide1>
+        <slide2 typ="map" id="54">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">false</enabled>
+            <height typ="int">1080</height>
+            <posx typ="int">0</posx>
+            <posy typ="int">0</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">1920</width>
+        </slide2>
+        <sound typ="map" id="55">
+            <A typ="int">255</A>
+            <B typ="int">127</B>
+            <G typ="int">127</G>
+            <R typ="int">127</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">673</posx>
+            <posy typ="int">1040</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">30</size>
+        </sound>
+        <stencil typ="map" id="56">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">false</enabled>
+            <height typ="int">410</height>
+            <posx typ="int">1195</posx>
+            <posy typ="int">565</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">490</width>
+        </stencil>
+        <title typ="map" id="57">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">true</enabled>
+            <maxtitlelength typ="int">255</maxtitlelength>
+            <posx typ="int">448</posx>
+            <posy typ="int">363</posy>
+            <posz typ="int">4</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <size typ="int">26</size>
+        </title>
+        <totalmem typ="map" id="58">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">317</posx>
+            <posy typ="int">1059</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </totalmem>
+        <uptime typ="map" id="59">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <depth typ="float">1</depth>
+            <enabled typ="bool">false</enabled>
+            <posx typ="int">323</posx>
+            <posy typ="int">935</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+        </uptime>
+        <video typ="map" id="60">
+            <A typ="int">125</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <drawhere typ="int">-1</drawhere>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">532</height>
+            <posx typ="int">206</posx>
+            <posy typ="int">538</posy>
+            <posz typ="int">0</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <videomenu typ="int">-1</videomenu>
+            <width typ="int">749</width>
+        </video>
+        <wallpaper typ="map" id="61">
+            <A typ="int">255</A>
+            <B typ="int">255</B>
+            <G typ="int">255</G>
+            <R typ="int">255</R>
+            <autorotate typ="bool">false</autorotate>
+            <back typ="bool">false</back>
+            <depth typ="float">0</depth>
+            <enabled typ="bool">true</enabled>
+            <height typ="int">1080</height>
+            <posx typ="int">0</posx>
+            <posy typ="int">0</posy>
+            <posz typ="int">1</posz>
+            <rotx typ="int">0</rotx>
+            <roty typ="int">0</roty>
+            <rotz typ="int">0</rotz>
+            <width typ="int">1920</width>
+        </wallpaper>
+    </objects>
+    <paths typ="map">
+        <customimagepath typ="string" id="0">/usr/share/typhon/themedata/typhon/</customimagepath>
+        <fontpath typ="string" id="1">/usr/share/typhon/generic/fonts/</fontpath>
+        <menuiconpath typ="string" id="2">/dev/shm/typhonp3t</menuiconpath>
+        <modeldir typ="string" id="10">~/.config/typhon/models</modeldir>
+        <motiondir typ="string" id="11">~/.config/typhon/motion</motiondir>
+        <musicpath typ="string" id="12">~/.config/typhon/music</musicpath>
+        <previewvideopath typ="string" id="3">~/.config/typhon/previews/videopreviews</previewvideopath>
+        <settingspicturepath typ="string" id="4">/usr/share/typhon/themedata/typhon/</settingspicturepath>
+        <soundpath typ="string" id="5">/dev/shm/typhonp3t</soundpath>
+        <stencilpicturepath typ="string" id="6">/dev/shm/typhonp3t</stencilpicturepath>
+        <themepreviewpath typ="string" id="7">/dev/shm/typhonp3t/backgrounds/</themepreviewpath>
+        <videopreviewpath typ="string" id="8">~/.config/typhon/previews/videopictures</videopreviewpath>
+        <wallpaperpath typ="string" id="9">/dev/shm/typhonp3t/backgrounds/</wallpaperpath>
+    </paths>
+    <shader typ="map">
+        <usebackshader typ="int">20</usebackshader>
+        <useshader typ="bool">true</useshader>
+    </shader>
+    <switches typ="map">
+        <fadewallpaper typ="bool" id="0">true</fadewallpaper>
+        <hideaboveselection typ="bool" id="1">false</hideaboveselection>
+        <invertfade typ="bool" id="2">false</invertfade>
+        <mmdmotionloop typ="bool" id="15">true</mmdmotionloop>
+        <mmdphysics typ="bool" id="16">true</mmdphysics>
+        <playmusic typ="bool" id="3">false</playmusic>
+        <playnextmusictrack typ="bool" id="4">false</playnextmusictrack>
+        <playsound typ="bool" id="5">true</playsound>
+        <playvideoonstart typ="bool" id="6">false</playvideoonstart>
+        <playvideoonswitch typ="bool" id="7">false</playvideoonswitch>
+        <randomwallpaper typ="bool" id="8">false</randomwallpaper>
+        <rotateselection typ="bool" id="9">false</rotateselection>
+        <stoponend typ="bool" id="10">false</stoponend>
+        <stopvideoonlaunch typ="bool" id="11">false</stopvideoonlaunch>
+        <useemutitles typ="bool" id="14">true</useemutitles>
+        <usemenuwallpaper typ="bool" id="12">true</usemenuwallpaper>
+        <usemonthcolors typ="bool" id="13">false</usemonthcolors>
+    </switches>
+    <textures typ="map">
+        <custom1 typ="string" id="4">stencil.png</custom1>
+        <custom1back typ="string" id="27">stencil.png</custom1back>
+        <custom2 typ="string" id="5">stencil.png</custom2>
+        <custom2back typ="string" id="28">stencil.png</custom2back>
+        <custom3 typ="string" id="6">stencil.png</custom3>
+        <custom3back typ="string" id="29">stencil.png</custom3back>
+        <icon typ="string" id="2">info_preview.png</icon>
+        <menuicon0 typ="string" id="9">icon_src_1.png</menuicon0>
+        <menuicon1 typ="string" id="10">icon_src_3.png</menuicon1>
+        <menuicon2 typ="string" id="11">icon_src_4.png</menuicon2>
+        <menuicon3 typ="string" id="12">icon_src_5.png</menuicon3>
+        <menuicon4 typ="string" id="13">icon_src_6.png</menuicon4>
+        <menuicon5 typ="string" id="14">icon_src_7.png</menuicon5>
+        <menuicon6 typ="string" id="15">icon_src_8.png</menuicon6>
+        <menuicon7 typ="string" id="16">icon_src_2.png</menuicon7>
+        <menuicon8 typ="string" id="17">icon_src_3.png</menuicon8>
+        <ownshadertexture typ="string" id="8">background.png</ownshadertexture>
+        <preview typ="string" id="1">hd_1.jpg</preview>
+        <previewback typ="string" id="30">hd_1.jpg</previewback>
+        <settings typ="string" id="7">settings.png</settings>
+        <stencil typ="string" id="0">stencil.png</stencil>
+        <stencilback typ="string" id="31">stencil.png</stencilback>
+        <videoback typ="string" id="33">hd_1.jpg</videoback>
+        <wallpaper typ="string" id="3">hd_1.jpg</wallpaper>
+        <wallpaper0 typ="string" id="18">hd_1.jpg</wallpaper0>
+        <wallpaper1 typ="string" id="19">hd_1.jpg</wallpaper1>
+        <wallpaper2 typ="string" id="20">hd_2.jpg</wallpaper2>
+        <wallpaper3 typ="string" id="21">hd_3.jpg</wallpaper3>
+        <wallpaper4 typ="string" id="22">hd_4.jpg</wallpaper4>
+        <wallpaper5 typ="string" id="23">hd_5.jpg</wallpaper5>
+        <wallpaper6 typ="string" id="24">hd_6.jpg</wallpaper6>
+        <wallpaper7 typ="string" id="25">hd_7.jpg</wallpaper7>
+        <wallpaper8 typ="string" id="26">hd_2.jpg</wallpaper8>
+        <wallpaperback typ="string" id="32">hd_1.jpg</wallpaperback>
+    </textures>
+</TyphonConfig>

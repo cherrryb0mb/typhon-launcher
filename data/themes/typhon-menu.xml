@@ -1,0 +1,51 @@
+<TyphonConfig>
+    <menu1 typ="map" id="0">
+        <emumenu typ="int">0</emumenu>
+        <entry typ="map">
+        </entry>
+        <savedentry typ="int" id="1">0</savedentry>
+        <title typ="string">Games</title>
+    </menu1>
+    <menu2 typ="map" id="1">
+        <emumenu typ="int">0</emumenu>
+        <entry typ="map">
+        </entry>
+        <savedentry typ="int" id="2">0</savedentry>
+        <title typ="string">Multimedia</title>
+    </menu2>
+    <menu3 typ="map" id="2">
+        <emumenu typ="int">0</emumenu>
+        <entry typ="map">
+        </entry>
+        <savedentry typ="int" id="3">0</savedentry>
+        <title typ="string">Internet</title>
+    </menu3>
+    <menu4 typ="map" id="3">
+        <emumenu typ="int">0</emumenu>
+        <entry typ="map">
+        </entry>
+        <savedentry typ="int" id="4">0</savedentry>
+        <title typ="string">System</title>
+    </menu4>
+    <menu5 typ="map" id="4">
+        <emumenu typ="int">0</emumenu>
+        <entry typ="map">
+        </entry>
+        <savedentry typ="int" id="5">0</savedentry>
+        <title typ="string">Office</title>
+    </menu5>
+    <menu6 typ="map" id="5">
+        <emumenu typ="int">0</emumenu>
+        <entry typ="map">
+        </entry>
+        <savedentry typ="int" id="6">0</savedentry>
+        <title typ="string">Graphics</title>
+    </menu6>
+    <menu7 typ="map" id="6">
+        <emumenu typ="int">0</emumenu>
+        <entry typ="map">
+        </entry>
+        <savedentry typ="int" id="7">0</savedentry>
+        <title typ="string">Favourites</title>
+    </menu7>
+</TyphonConfig>

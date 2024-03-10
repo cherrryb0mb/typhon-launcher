@@ -1,0 +1,16 @@
+TODO
+=====
+
+patches welcome! no special order, some might be dropped, others added
+-------------------------------------------------------------------------
+NEW:
+
+- reimplement slideshow
+- first launch helpscreen
+- README
+- mouse tooltip dropdownmenus
+
+OLD:
+- support for other 3rd party themes
+
+and/or grep -R TODO src/*.cpp

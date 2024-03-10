@@ -1,0 +1,3 @@
+ADD_SUBDIRECTORY ( fonts )
+ADD_SUBDIRECTORY ( sfx )
+ADD_SUBDIRECTORY ( backshader )

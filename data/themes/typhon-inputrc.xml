@@ -1,0 +1,180 @@
+<TyphonConfig>
+    <joypad typ="map">
+        <switchplayvideohere typ="int" id="9">13</switchplayvideohere>
+        <startselection typ="int" id="8">14</startselection>
+        <down typ="int" id="1">6</down>
+        <dechelpscreen typ="int" id="4">10</dechelpscreen>
+        <menupageup typ="int" id="5">8</menupageup>
+        <left typ="int" id="2">7</left>
+        <inchelpscreen typ="int" id="6">11</inchelpscreen>
+        <menupagedown typ="int" id="7">9</menupagedown>
+        <right typ="int" id="3">5</right>
+        <escape typ="int" id="12">0</escape>
+        <toggleemumode typ="int" id="11">15</toggleemumode>
+        <nexttyphontheme typ="int" id="13">3</nexttyphontheme>
+        <togglevideomenu typ="int" id="10">12</togglevideomenu>
+        <up typ="int" id="0">4</up>
+    </joypad>
+    <key typ="map">
+        <changebg typ="map" id="15">
+            <desc typ="string">change background</desc>
+            <key typ="string">B</key>
+        </changebg>
+        <changeicon typ="map" id="14">
+            <desc typ="string">change icon</desc>
+            <key typ="string">I</key>
+        </changeicon>
+        <changeshader typ="map" id="28">
+            <desc typ="string">next shader</desc>
+            <key typ="string">F10</key>
+        </changeshader>
+        <changetyphontheme typ="map" id="26">
+            <desc typ="string">toggle typhontheme menu</desc>
+            <key typ="string">T</key>
+        </changetyphontheme>
+        <choiceleft typ="map" id="36">
+            <desc typ="string">previous preview</desc>
+            <key typ="string">A</key>
+        </choiceleft>
+        <choiceright typ="map" id="37">
+            <desc typ="string">next preview</desc>
+            <key typ="string">D</key>
+        </choiceright>
+        <decchangevalue typ="map" id="18">
+            <desc typ="string">decrease change value</desc>
+            <key typ="string">S</key>
+        </decchangevalue>
+        <down typ="map" id="3">
+            <desc typ="string">down</desc>
+            <key typ="string">Down</key>
+        </down>
+        <exit typ="map" id="0">
+            <desc typ="string">exit</desc>
+            <key typ="string">Escape</key>
+        </exit>
+        <export typ="map" id="16">
+            <desc typ="string">export theme</desc>
+            <key typ="string">F8</key>
+        </export>
+        <favourites typ="map" id="39">
+            <desc typ="string">add entry to favourites</desc>
+            <key typ="string">F</key>
+        </favourites>
+        <fastdown typ="map" id="9">
+            <desc typ="string">fast down</desc>
+            <key typ="string">Next</key>
+        </fastdown>
+        <fastup typ="map" id="8">
+            <desc typ="string">fast up</desc>
+            <key typ="string">Prior</key>
+        </fastup>
+        <help typ="map" id="23">
+            <desc typ="string">hotkey help screen</desc>
+            <key typ="string">F1</key>
+        </help>
+        <movewindow typ="map" id="34">
+            <desc typ="string">move window</desc>
+            <key typ="string">F12</key>
+        </movewindow>
+        <incchangevalue typ="map" id="17">
+            <desc typ="string">increase change value</desc>
+            <key typ="string">W</key>
+        </incchangevalue>
+        <left typ="map" id="4">
+            <desc typ="string">left</desc>
+            <key typ="string">Left</key>
+        </left>
+        <menueditmode typ="map" id="33">
+            <desc typ="string">toggle menueditmode</desc>
+            <key typ="string">M</key>
+        </menueditmode>
+        <minus typ="map" id="7">
+            <desc typ="string">decrease</desc>
+            <key typ="string">Minus</key>
+        </minus>
+        <plus typ="map" id="6">
+            <desc typ="string">increase</desc>
+            <key typ="string">Period</key>
+        </plus>
+        <right typ="map" id="5">
+            <desc typ="string">right</desc>
+            <key typ="string">Right</key>
+        </right>
+        <rotationpicking typ="map" id="21">
+            <desc typ="string">change rotation picking</desc>
+            <key typ="string">F2</key>
+        </rotationpicking>
+        <savecfgs typ="map" id="24">
+            <desc typ="string">save non theme configs</desc>
+            <key typ="string">F6</key>
+        </savecfgs>
+        <savetheme typ="map" id="25">
+            <desc typ="string">save theme config</desc>
+            <key typ="string">F7</key>
+        </savetheme>
+        <searchmode typ="map" id="22">
+            <desc typ="string">search</desc>
+            <key typ="string">L</key>
+        </searchmode>
+        <startselection typ="map" id="1">
+            <desc typ="string">select</desc>
+            <key typ="string">Return</key>
+        </startselection>
+        <switchhelpscreen typ="map" id="32">
+            <desc typ="string">switch help screen</desc>
+            <key typ="string">H</key>
+        </switchhelpscreen>
+        <togglecolorpicking typ="map" id="20">
+            <desc typ="string">toggle color picking</desc>
+            <key typ="string">F4</key>
+        </togglecolorpicking>
+        <toggleedit typ="map" id="12">
+            <desc typ="string">toggle editmode</desc>
+            <key typ="string">Backspace</key>
+        </toggleedit>
+        <toggleemu typ="map" id="10">
+            <desc typ="string">toggle emumenu</desc>
+            <key typ="string">E</key>
+        </toggleemu>
+        <togglep3tmenu typ="map" id="27">
+            <desc typ="string">toggle p3t theme menu</desc>
+            <key typ="string">P</key>
+        </togglep3tmenu>
+        <togglepicking typ="map" id="19">
+            <desc typ="string">toggle mouse picking</desc>
+            <key typ="string">F3</key>
+        </togglepicking>
+        <togglesetpicking typ="map" id="31">
+            <desc typ="string">toggle settings picking</desc>
+            <key typ="string">F5</key>
+        </togglesetpicking>
+        <toggleshader typ="map" id="29">
+            <desc typ="string">toggle shader</desc>
+            <key typ="string">0</key>
+        </toggleshader>
+        <togglevideo typ="map" id="11">
+            <desc typ="string">toggle video</desc>
+            <key typ="string">Tab</key>
+        </togglevideo>
+        <togglevideomenu typ="map" id="13">
+            <desc typ="string">toggle videomenu</desc>
+            <key typ="string">V</key>
+        </togglevideomenu>
+        <up typ="map" id="2">
+            <desc typ="string">up</desc>
+            <key typ="string">Up</key>
+        </up>
+        <updatemenu typ="map" id="38">
+            <desc typ="string">update menuentries</desc>
+            <key typ="string">U</key>
+        </updatemenu>
+        <updatepreview typ="map" id="35">
+            <desc typ="string">force preview update</desc>
+            <key typ="string">1</key>
+        </updatepreview>
+        <videovolume typ="map" id="30">
+            <desc typ="string">change video volume</desc>
+            <key typ="string">F11</key>
+        </videovolume>
+    </key>
+</TyphonConfig>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/219/trunk/src/gource
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/219/trunk/src/gource/CMakeLists.txt
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/219/trunk/src/gource/resource.h
+END
+logger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/219/trunk/src/gource/logger.cpp
+END
+fxfont.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/219/trunk/src/gource/fxfont.cpp
+END
+logger.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/219/trunk/src/gource/logger.h
+END
+resource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/219/trunk/src/gource/resource.cpp
+END
+fxfont.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/219/trunk/src/gource/fxfont.h
+END
+vectors.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/219/trunk/src/gource/vectors.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/233/trunk
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/231/trunk/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/219/trunk/README
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/222/trunk/AUTHORS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/219/trunk/TODO
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/219/trunk/INSTALL
+END
+Changelog
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/231/trunk/Changelog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/219/trunk/COPYING
+END

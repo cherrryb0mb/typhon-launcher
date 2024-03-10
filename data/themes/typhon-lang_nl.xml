@@ -1,0 +1,116 @@
+<TyphonConfig>
+    <boxart typ="string" id="66">Ophalen dooshoezen</boxart>
+    <cantstart typ="string" id="29">Opstarten mislukt:</cantstart>
+    <cantwrite typ="string" id="27">Kan niet wegschrijven naar</cantwrite>
+    <changed typ="string" id="9">gewijzigd</changed>
+    <changedata typ="string" id="55">om databestand te wijzigen</changedata>
+    <changeemu typ="string" id="44"> om emulator te wijzigen</changeemu>
+    <changemenu typ="string" id="59">om menu te wijzigen</changemenu>
+    <changemenuiconoff typ="string" id="23">Bewerkmodues menu-icoon inactief</changemenuiconoff>
+    <changemenuiconon typ="string" id="22">Bewerkmodus menu-icoon actief</changemenuiconon>
+    <changeobject typ="string" id="62">om object te wijzigen</changeobject>
+    <changeshader typ="string" id="20">gewisseld naar shader:</changeshader>
+    <changetheme typ="string" id="8">gewisseld naar typhonthema:</changetheme>
+    <changewpoff typ="string" id="25">Bewerkmodues achtergrond inactief</changewpoff>
+    <changewpon typ="string" id="24">Bewerkmodus achtergrond actief</changewpon>
+    <chemu typ="string" id="40"> om emulator te wisselen</chemu>
+    <cmdargs typ="string" id="50">opdrachtregelargumenten</cmdargs>
+    <colorpickoff typ="string" id="33">Kleurkiezer uitgeschakeld</colorpickoff>
+    <colorpickon typ="string" id="32">Kleurkiezer ingeschakeld. Klik een object, houd vast en sleep de muis om een kleur te kiezen</colorpickon>
+    <createdby typ="string" id="10">Ontwikkeld door</createdby>
+    <disabled typ="string" id="48">uitgeschakeld</disabled>
+    <edemu typ="string" id="39"> om emulatorinstellingen te bewerken</edemu>
+    <editmode typ="string" id="12">Bewerkmodus:</editmode>
+    <edpath typ="string" id="37"> om het pad te bewerken</edpath>
+    <emulisttitle typ="string" id="41"> emulatoren</emulisttitle>
+    <enabled typ="string" id="53">ingeschakeld</enabled>
+    <everything typ="string" id="68">Ophalen uit alle bronnen</everything>
+    <export typ="string" id="6">Ge&euml;xporteerd als</export>
+    <exportas typ="string" id="52">Exporteer thema als</exportas>
+    <fanart typ="string" id="67">Ophalen fanart</fanart>
+    <free typ="string" id="14">Vrije schijfruimte</free>
+    <freemem typ="string" id="15">Beschikbaar geheugen</freemem>
+    <helpscreens typ="map">
+        <helpscreenlist typ="string" id="0">Hulpschermlijst</helpscreenlist>
+        <hotkeylist typ="string" id="1">Sneltoetslijst</hotkeylist>
+        <joypadbuttons typ="string" id="2">Joypadknoppen</joypadbuttons>
+        <themepaths typ="string" id="3">Themapaden</themepaths>
+        <themeswitches typ="string" id="4">Themaschakelaars</themeswitches>
+        <globalswitches typ="string" id="5">Globale schakelaars</globalswitches>
+        <emulatorsettings typ="string" id="6">Emulatorinstellingen</emulatorsettings>
+        <themeints typ="string" id="7">Thema-integers</themeints>
+        <globalints typ="string" id="8">Globale integers</globalints>
+        <themefloats typ="string" id="9">Thema-floats</themefloats>
+        <themefiles typ="string" id="10">Themabestanden</themefiles>
+        <globalstrings typ="string" id="11">Globale strings</globalstrings>
+        <globalpaths typ="string" id="12">Globale paden</globalpaths>
+        <onlinethemes typ="string" id="13">Online thema's</onlinethemes>
+        <objects typ="string" id="14">Objecten</objects>
+    </helpscreens>
+    <hotkey typ="string" id="19"> om sneltoets te wijzigen voor:</hotkey>
+    <mapbutton typ="string" id="38"> om joypadknop te mappen voor:</mapbutton>
+    <menueditmode typ="string" id="54">Menubewerkmodus</menueditmode>
+    <menuentries typ="string" id="49">Menuonderdelen</menuentries>
+    <menurange typ="string" id="67">Menu moet tussen 1 en 7 zijn</menurange>
+    <missingarg typ="string" id="68">vereist argument -m - actie wordt afgebroken!</missingarg>
+    <mousepickoff typ="string" id="31">Muisselecties uitgeschakeld</mousepickoff>
+    <mousepickon typ="string" id="30">Muisknoppen: links = sleep, midden = blokkeer, rechts = schaal, wiel = z-positie</mousepickon>
+    <noscrape typ="string" id="64">Geen geldige schraapmethode opgegeven. Actie wordt afgebroken</noscrape>
+    <notreadable typ="string" id="28">niet leesbaar</notreadable>
+    <notavailable typ="string" id="63">niet beschikbaar</notavailable>
+    <online typ="string" id="61">om online thema te importeren</online>
+    <or typ="string" id="47">of</or>
+    <patient typ="string" id="65">Een moment alstublieft</patient>
+    <p3tlisttitle typ="string" id="43"> p3t-thema's</p3tlisttitle>
+    <picked typ="string" id="3">gekozen:</picked>
+    <pmd typ="string" id="21">Verander pmd naar:</pmd>
+    <press typ="string" id="17">Druk</press>
+    <rominfo typ="string" id="65">ophalen rominformatie</rominfo>
+    <rotationpickoff typ="string" id="2">Rotatieselecties uitgeschakeld</rotationpickoff>
+    <rotationpickon typ="string" id="1">Rotatieselecties ingeschakeld</rotationpickon>
+    <saved typ="string" id="7">Opgeslagen: </saved>
+    <savedall typ="string" id="0">Alle globale configuratie opgeslagen</savedall>
+    <searchmode typ="string" id="13">Zoeken:</searchmode>
+    <settingspickoff typ="string" id="35">Instellingsselecties uitgeschakeld</settingspickoff>
+    <settingspickon typ="string" id="34">Instellingsselecties ingeschakeld. Gebruik linker muisknop om geselecteerde object in- of uit te schakelen</settingspickon>
+    <stringedit typ="string" id="56">om string te bewerken</stringedit>
+    <themelisttitle typ="string" id="60"> Typhonthema's</themelisttitle>
+    <title typ="string" id="51">Menutitel</title>
+    <to typ="string" id="11">naar</to>
+    <togswitch typ="string" id="36"> om switch om te zetten:</togswitch>
+    <totalmem typ="string" id="16">Totaal geheugen</totalmem>
+    <uptime typ="string" id="18">Uptime</uptime>
+    <usage typ="map">
+        <u_0 typ="string" id="0"> </u_0>
+        <u_1 typ="string" id="1">Gebruik: typhon [OPTIE …]</u_1>
+        <u_10 typ="string" id="10">......................................Toegestaan zijn:</u_10>
+        <u_11 typ="string" id="11">......................................- Typhonthema in tgz-formaat</u_11>
+        <u_12 typ="string" id="12">......................................- PS3 &quot;.p3t&quot; thema</u_12>
+        <u_13 typ="string" id="13">......................................- Zelfgemaakt gezipt of gerard thema voor eenvoudige import</u_13>
+        <u_14 typ="string" id="14">......................................- Een jpg-bestand</u_14>
+        <u_15 typ="string" id="15"> </u_15>
+        <u_16 typ="string" id="16"> </u_16>
+        <u_17 typ="string" id="17">--lang..[naam]........................Stel taal in; terugval naar Engels indien niet gevonden</u_17>
+        <u_18 typ="string" id="18">-le, --listexported...................Toon ge&euml;xporteerde typhonthema's die zijn gevonden in ~/.config/typhon/export/</u_18>
+        <u_19 typ="string" id="19">-lo, --listonline.....................Toon beschikbare onlinethema's</u_19>
+        <u_20 typ="string" id="20">-fm, --fillmenu [/pad/naar/programma's].Vereist -m argument; vult menu m met programma's gevonden in pad</u_20>
+        <u_21 typ="string" id="21">-m, --menu [1-7]......................Vereist voor -fm; dit menu wordt gevuld met programma's</u_21>
+        <u_22 typ="string" id="22">-s, --scrape [mode]....................Beschikbare modi: 'rominfo', 'boxart', 'fanart', 'all' </u_22>
+        <u_2 typ="string" id="2">-t, --theme  [themanaam]...............Start typhonthema; wordt aangemaakt indien niet gevonden</u_2>
+        <u_3 typ="string" id="3">-l, --listthemes......................Toon ge&iuml;nstalleerde typhonthema's</u_3>
+        <u_4 typ="string" id="4">-lp, --listp3t........................Toon ge&iuml;nstalleerde p3t-thema's</u_4>
+        <u_5 typ="string" id="5">-p, --p3t [thema].....................Start p3t-thema</u_5>
+        <u_6 typ="string" id="6">-ar, --autores........................Schakel geconfigureerde autoresolutievlag in</u_6>
+        <u_7 typ="string" id="7">-x $breedte, -y $hoogte..................Stuur breedte en hoogte door via de opdrachtregel (weegt zwaarder dan geconfigureerde maten en autodetectie)</u_7>
+        <u_8 typ="string" id="8">-i /pad/naar/foo.(rar|zip|p3t|jpg).....importeer extern thema als typhonthema</u_8>
+        <u_9 typ="string" id="9">......................................Ge&euml;xporteerde typhonthema's en ge&iuml;nstaleerde p3t's vereisen geen absolute paden</u_9>
+    </usage>
+    <value typ="string" id="46"> om waarde te wijzigen voor:</value>
+    <valuespeed typ="string" id="26">Changevaluespeed is ingesteld naar</valuespeed>
+    <videolisttitle typ="string" id="42"> video's</videolisttitle>
+    <videovolume typ="string" id="5">Zet videovolume naar</videovolume>
+    <vmd typ="string" id="45">VMD veranderd naar to:</vmd>
+    <xyrot typ="string" id="57">X,Y-rotering ingeschakeld</xyrot>
+    <zpos typ="string" id="4">Z-positie is ingesteld naar</zpos>
+    <zrot typ="string" id="58">Z-rotering ingeschakeld</zrot>
+</TyphonConfig>
