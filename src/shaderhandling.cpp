@@ -12,7 +12,7 @@
 
 sf::Texture shadtexture;
 sf::Shader* getShader(int s)
-{return	(sf::Shader*)rtcfg->sub("shaders")->sub(s)->getInt("shaderid");}
+{return	(sf::Shader*)rtcfg->sub("shaders")->sub(s)->getIntP("shaderid");}
 // warning: cast to pointer from integer of different size [-Wint-to-pointer-cast] // TODO 64bit uint32?
 
 void toggleshaders()
