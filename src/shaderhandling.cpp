@@ -196,7 +196,7 @@ void drawshadebackground()
 		sf::Shader::bind(getShader(useBackShader()));
 		sf::Texture::bind(&shadtexture);
 		drawquad(rtcfg->getInt("width"),rtcfg->getInt("height"));
-		sf::Shader::bind(NULL);
+		glUseProgram(0);
 
 		glEnable(GL_DEPTH_TEST);
 		glPopMatrix();

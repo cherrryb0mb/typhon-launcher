@@ -32,6 +32,10 @@ SET ( SRC_compile ${SOURCES} )
 ADD_EXECUTABLE ( ${APPNAME} ${SOURCES} )
 TARGET_LINK_LIBRARIES( ${APPNAME} ${EXTRA_LIBS} )
 
+find_package(GLEW REQUIRED)
+include_directories(${GLEW_INCLUDE_DIRS})
+link_libraries(${GLEW_LIBRARIES})
+
 find_package(X11 REQUIRED)
 include_directories(${X11_INCLUDE_DIR})
 target_link_libraries(${APPNAME} ${X11_LIBRARIES} ${EXTRA_LIBS})

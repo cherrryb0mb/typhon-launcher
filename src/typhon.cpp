@@ -140,6 +140,10 @@ int main (int argc, char *argv[])
 		
 		window.create( sf::VideoMode(rtcfg->getInt("width"),rtcfg->getInt("height"),32), "typhon", sf::Style::None);
 	}
+	if(glewInit() != GLEW_OK){
+		std::cout << "glewInit() failed. great.";
+		return -1;
+	}
 
 	windowpos(tycfg->sub("globalints")->getInt("windowposx"),tycfg->sub("globalints")->getInt("windowposy"));
 	calculatepositions();
