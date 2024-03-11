@@ -24,16 +24,16 @@ extern std::string switchmediasuffix(std::string thismedia,TyphonConfig *suflist
 using namespace std;
 
 sf::Texture* getTexture(int s)
-{return (sf::Texture*)rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(s)->id)->getIntP("tid");}
+{return rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(s)->id)->getTexturePtr("tid");}
 
 sf::Texture* getIconTexture(int s)
-{return (sf::Texture*)rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(thcfg->sub("textures")->get("menuicon0")->id+s)->id)->getIntP("tid");}
+{return rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(thcfg->sub("textures")->get("menuicon0")->id+s)->id)->getTexturePtr("tid");}
 
 sf::Texture* getWallTexture(int s)
-{return (sf::Texture*)rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(thcfg->sub("textures")->get("wallpaper0")->id+s)->id)->getIntP("tid");}
+{return rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(thcfg->sub("textures")->get("wallpaper0")->id+s)->id)->getTexturePtr("tid");}
 
 sf::Texture* getTextureS(std::string s)
-{return (sf::Texture*)rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(s)->id)->getIntP("tid");}
+{return rtcfg->sub("textureids")->sub(rtcfg->sub("textureids")->sub(s)->id)->getTexturePtr("tid");}
 
 Config* getTextureConfig()
 {

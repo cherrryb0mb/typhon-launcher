@@ -254,6 +254,15 @@ int TyphonConfig::getInt(std::string key) {
 	return *getIntP(key);
 }
 
+sf::Texture* TyphonConfig::getTexturePtr(std::string key){
+	TConfig<sf::Texture>* texturecfg = (TConfig<sf::Texture>*) get(key);
+	return texturecfg->get();	
+}
+sf::Shader* TyphonConfig::getShaderPtr(std::string key){
+	TConfig<sf::Shader>* texturecfg = (TConfig<sf::Shader>*) get(key);
+	return texturecfg->get();	
+}
+
 std::string* TyphonConfig::getStringP(std::string key) {
 	TConfig<std::string>* s = (TConfig<std::string>*) get(key);
 	return s->get();
@@ -384,7 +393,12 @@ std::string TyphonConfig::getKey(int id) {
 	}
 	return "xxx";
 }
-
+sf::Texture* TyphonConfig::getTexturePtr(int i) {
+	return getTexturePtr(getKey(i));
+}
+sf::Shader* TyphonConfig::getShaderPtr(int i) {
+	return getShaderPtr(getKey(i));
+}
 std::string TyphonConfig::getString(int i) {
 	return getString(getKey(i));
 }

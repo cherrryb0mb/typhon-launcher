@@ -1,7 +1,7 @@
 #include <map>
 #include <string>
 #include <tinyxml.h>
-
+#include <SFML/Graphics.hpp>
 // Geflissentlich durchdokumentierter ClassHeader !!!
 
 // Dummy Config Klasse, von der alle anderen Klassen typ und id erben.
@@ -101,6 +101,8 @@ class TyphonConfig : public Config {
 	
 	TyphonConfig* insertSubCa(std::string key,int id2);
 		
+	sf::Texture* getTexturePtr(std::string key);
+	sf::Shader* getShaderPtr(std::string key);
 	int* getIntP(std::string key);								// holt nen Integer-Pointer via Key aus der Map
 	int getInt(std::string key);								// holt ein Integer via Key aus der Map
 	char* getInt2String(std::string key);						// holt ein Integer via Key aus der Map und castet den zu nem char* um
@@ -116,6 +118,8 @@ class TyphonConfig : public Config {
 	std::string getKey(int id);									// holt zu einer ID den passenden Key
 	int size();													// zählt alle ID Elemente einer (sub)Map
 	
+	sf::Texture* getTexturePtr(int i);
+	sf::Shader* getShaderPtr(int i);
 	std::string getString(int i);								// holt einen String via ID aus der Map
 	std::string* getStringP(int i);								// holt nen Pointer zu nem String via ID aus der Map
 	int getInt(int i);											// holt ein Integer via ID aus der Map
