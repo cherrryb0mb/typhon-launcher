@@ -321,16 +321,26 @@ std::string mentry(int menu,int count)
 	}
 	else
 	{
-			 if (Iem()!=0)					return getPrefix(rmcfg->sub("Roms")->sub(IeID()-1)->sub(count)->getString("file"));
+		if (Iem()!=0)					return getPrefix(rmcfg->sub("Roms")->sub(IeID()-1)->sub(count)->getString("file"));
 		else if (Bvidmenu())				return getPrefix(vicfg->sub("videos")->sub(count)->getString("file"));
 		else if (Bp3tmenu())				return getPrefix(p3cfg->sub("ps3themes")->getString(count));
 		else if (Bthememenu())				return getPrefix(rtcfg->sub("themes")->getString(count));
 		else								
 		{
+			if(!mecfg->sub(menu)){
+				std::cout << "\n\nbad menu id: " << std::to_string(count);
+				std::cout << "\nmake sure typhon-menu.xml has valid menu entries!" << "\n\n";
+				exit(-1);
+			}
+			if(!mecfg->sub(menu)->sub("entry")->sub(count)){
+				std::cout << "\n\nbad (menu)entry count: " << std::to_string(count);
+				std::cout << "\nmake sure typhon-menu has valid menu entries!" << "\n\n";
+				exit(-1);
+			}	
 			if(tycfg->sub("globalswitches")->getBool("entrynames"))
-			return mecfg->sub(menu)->sub("entry")->sub(count)->getString("name");
+				return mecfg->sub(menu)->sub("entry")->sub(count)->getString("name");
 			else
-			return mecfg->sub(menu)->sub("entry")->sub(count)->getString("binary");
+				return mecfg->sub(menu)->sub("entry")->sub(count)->getString("binary");
 		}
 	}
 }
