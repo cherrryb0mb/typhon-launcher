@@ -333,9 +333,7 @@ std::string mentry(int menu,int count)
 				exit(-1);
 			}
 			if(!mecfg->sub(menu)->sub("entry")->sub(count)){
-				std::cout << "\n\nbad (menu)entry count: " << std::to_string(count);
-				std::cout << "\nmake sure typhon-menu has valid menu entries!" << "\n\n";
-				exit(-1);
+				return "Empty Menu";	
 			}	
 			if(tycfg->sub("globalswitches")->getBool("entrynames"))
 				return mecfg->sub(menu)->sub("entry")->sub(count)->getString("name");

@@ -347,7 +347,16 @@ void updateicon()
 	if (thcfg->sub("objects")->sub("icon")->getBool("enabled"))
 	{
 		if(Iem()==0 || Ishowmenu()==0)
-		{rtcfg->set("currenticon",mecfg->sub(Ishowmenu()-1)->sub("entry")->sub(Ics())->getString("icon"));}
+		{
+			if(mecfg->sub(Ishowmenu()-1)->sub("entry")->sub(Ics())){
+				rtcfg->set("currenticon",mecfg->sub(Ishowmenu()-1)->sub("entry")->sub(Ics())->getString("icon"));
+			}
+			else {//assume "empty" menu - typhon broke the menuentry again
+				std::string default_icon = rtcfg->sub("scanned")->getString("menuiconpath")+"/"+thcfg->sub("textures")->getString("icon");
+				default_icon += rtcfg->sub("scanned")->getString("menuiconpath")+"/"+thcfg->sub("textures")->getString("icon");
+				rtcfg->set("currenticon",default_icon);
+			}
+		}
 		
 		if (Ishowmenu()>=1 && Iem() !=0)
 		{rtcfg->set("currenticon",emcfg->sub(IeID()-1)->getString("rompath")+"/"+getPrefix(rmcfg->sub("Roms")->sub(IeID()-1)->sub(Ics())->getString("file"))+".png");}
