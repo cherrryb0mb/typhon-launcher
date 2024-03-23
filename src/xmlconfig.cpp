@@ -198,7 +198,7 @@ int Ishowmenu()
 	return tycfg->getInt("showmenu");	
 }
 
-int Ics()
+int Ics() //FYI: Ics() < 0 means you're in an empty menu.
 {
 	return rtcfg->sub("curSel")->getInt(Ishowmenu());
 }

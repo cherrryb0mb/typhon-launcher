@@ -454,8 +454,9 @@ void dokeyup()
 		else
 		{
 			rtcfg->setBool("menuisscrolling",1);
-			if (Ics()==0)	setcs(Ime()-1);
-			else			setcs((Ics()-1));
+			if (Ics()==0)  setcs(Ime()-1);
+			else if (Ics() < 0)  setcs(0);
+			else setcs((Ics()-1));
 		}
 		restartmedia();
 	}
@@ -571,8 +572,11 @@ void dokeydown()
 
 		else 
 		{
-			rtcfg->setBool("menuisscrolling",1);
-			setcs((Ics()+1)%Ime());
+			if(Ime() != 0){
+				rtcfg->setBool("menuisscrolling",1);
+				setcs((Ics()+1)%Ime());
+			}  
+
 		}
 		restartmedia();
 	}
