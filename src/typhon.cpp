@@ -17,9 +17,9 @@
 #include "cmdlinehandling.h"
 #include "networking.h"
 #include "rsshandling.h"
+#include "shadermanager.h"
 
 sf::RenderWindow window;
-
 int main (int argc, char *argv[])
 {
     inittyconf();
@@ -38,6 +38,7 @@ int main (int argc, char *argv[])
 	cfgpath();
 	checkcfg();
 	readtyphonxml();
+	
 	if (cli->exists("-lang"))			{tycfg->sub("strings")->setC("language",cli->getString("-lang"));}
 
 	readlanguagexml();
@@ -153,9 +154,12 @@ int main (int argc, char *argv[])
 	listvideos();
 	readsysinfos();
 	unblock();
-	
+	loadShaderConfig();
+	//I still wish I could just use a vector instead of a VLA but hey it works now
+	ShaderManager shaderman(shcfg->sub("shaders")->size());
+
 	initgl();
-	initshaders();
+	initshaders(shaderman);
 	
 #ifdef WITHMMD
 	initmodelgl();
@@ -177,7 +181,7 @@ int main (int argc, char *argv[])
 	{
 		input();
 		checktimer();
-		display();
+		display(shaderman);
 	}
 // shutdown program
 

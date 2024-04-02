@@ -1,6 +1,7 @@
 #include "shaderhandling.h"
 #include "picturehandling.h"
 #include "glmenu.h"
+#include "shadermanager.h"
 #include "videoplayerhandling.h"
 #include "windowhandling.h"
 #include "systeminfo.h"
@@ -9,11 +10,10 @@
 #include "xmlconfig.h"
 #include "filehandling.h"
 #include "glhandling.h"
+#include <SFML/Graphics/Shader.hpp>
+#include <string>
 
 sf::Texture shadtexture;
-sf::Shader* getShader(int s)
-{return	rtcfg->sub("shaders")->sub(s)->getShaderPtr("shaderid");}
-// warning: cast to pointer from integer of different size [-Wint-to-pointer-cast] // TODO 64bit uint32?
 
 void toggleshaders()
 {
@@ -37,31 +37,31 @@ int switchshadertex(std::string thistexture, sf::Texture *texi)
 	return false;
 }
 
-void updateshaders()
-{
+void updateshaders(ShaderManager &shaderman)
+{	
 	TyphonConfig* sh=shcfg->sub("shaders")->sub(useBackShader());
 	if(sh->getBool("texture"))
-	getShader(useBackShader())->setParameter("tex0", shadtexture);
+	shaderman.getShader(useBackShader()).setParameter("tex0", shadtexture);
 
 	if(sh->getBool("mouse"))
-	{getShader(useBackShader())->setParameter("mouse",(rootX),(rootY),(rootX),(rootY));}
+	{shaderman.getShader(useBackShader()).setParameter("mouse",(rootX),(rootY),(rootX),(rootY));}
 
 	if(sh->getBool("size"))
-	getShader(useBackShader())->setParameter("resolution",(rtcfg->getInt("width")),(rtcfg->getInt("height")));
+	shaderman.getShader(useBackShader()).setParameter("resolution",(rtcfg->getInt("width")),(rtcfg->getInt("height")));
 
 	if(sh->getBool("time"))
 	{
 //		if (rtcfg->getFloat("shcount")<30)	
 		((TConfig<float>*) rtcfg->get("shcount"))->operator+(thcfg->sub("floats")->getFloat("shaderspeed"));
 //		else rtcfg->set("shcount",(float)0);
-		getShader(useBackShader())->setParameter("time",rtcfg->getFloat("shcount"));
+		shaderman.getShader(useBackShader()).setParameter("time",rtcfg->getFloat("shcount"));
 	}
 
 	if(sh->getBool("color"))
 	{
 		TyphonConfig* mc=rtcfg->sub("monthcolors")->sub(rtcfg->getInt("monthcolor"));
 		rtcfg->setBool("wantshadercolor",1);	clocktimer();	rtcfg->setBool("wantshadercolor",0);
-		getShader(useBackShader())->setParameter("color",
+		shaderman.getShader(useBackShader()).setParameter("color",
 		mc->getFloat("R"),
 		mc->getFloat("G"),
 		mc->getFloat("B"));
@@ -106,7 +106,7 @@ void addusershaders()
 	shcfg->saveXML(rtcfg->sub("configs")->getString("shaderxml"));
 }
 
-Config* getShaderConfig(int shadid)
+void loadShader(int shadid, ShaderManager &shaderman)
 {
 	std::string shaderfile=shcfg->sub("shaders")->sub(shadid)->getString("name");
 	std::string sp= rtcfg->getString("systemshaderpath")+shaderfile;
@@ -114,17 +114,12 @@ Config* getShaderConfig(int shadid)
 	if(shcheck)
 	{fclose(shcheck);}
 	else{sp=checkpath(shcfg->getString("shaderpath"),rtcfg->getString("systemshaderpath"))+shaderfile;}
-
-	sf::Shader *dummyshader ;
-	dummyshader = new sf::Shader();
-	dummyshader->loadFromFile(sp, sf::Shader::Fragment);
-	Config* testShader = new TConfig<sf::Shader*>(dummyshader);
-	testShader->typ="int";
-	return testShader;
+	if (!shaderman.loadShaderFile(shadid, sp, sf::Shader::Type::Fragment)){
+		exit(1); //loadshaderfile handles giving you a nice message itself	
+	}	
 }
 
-void initshaders()
-{
+void loadShaderConfig(){
 	FILE *shcfgcheck = fopen(rtcfg->sub("configs")->getString("shaderxml").c_str(),"r");
 	if(shcfgcheck)
 	{
@@ -136,14 +131,15 @@ void initshaders()
 		setshaderdefaults();
 		shcfg->saveXML(rtcfg->sub("configs")->getString("shaderxml"));
 	}
-
+}
+void initshaders(ShaderManager &shaderman)
+{
 	addusershaders();
-
 	for(int s = 0; s <  shcfg->sub("shaders")->size(); s++)
 	{
-		Config* tempcfg= getShaderConfig(s);
-		rtcfg->sub("shaders")->subC(shcfg->sub("shaders")->sub(s)->getString("name"))->set("shaderid",tempcfg);
+		loadShader(s,shaderman);
 	}
+
 }
 
 void shaderwp(std::string thiswallpaper)
@@ -183,7 +179,7 @@ void loadshadertex()
 	}
 }
 
-void drawshadebackground()
+void drawshadebackground(ShaderManager &shaderman)
 {
 	if(useShader())
 	{
@@ -192,8 +188,8 @@ void drawshadebackground()
 		glDisable(GL_DEPTH_TEST);
 
 		glTranslatef(-rtcfg->getInt("width")/2,-rtcfg->getInt("height")/2,0);
-		updateshaders();
-		sf::Shader::bind(getShader(useBackShader()));
+		updateshaders(shaderman);
+		sf::Shader::bind(&shaderman.getShader(useBackShader()));
 		sf::Texture::bind(&shadtexture);
 		drawquad(rtcfg->getInt("width"),rtcfg->getInt("height"));
 		glUseProgram(0);

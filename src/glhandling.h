@@ -1,8 +1,9 @@
 #include "includes.h"
 #include "picturehandling.h"
 #include "glmenu.h"
+#include "shadermanager.h"
 
-void display();
+void display(ShaderManager &shaderman);
 void rotateme(std::string obj);
 void setpos(std::string obj);
 void drawcube(float cubex, float cubey,float cubez,std::string obj,std::string bobj);

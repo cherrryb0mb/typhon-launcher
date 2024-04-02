@@ -1,10 +1,12 @@
 #include <SFML/Graphics.hpp>
 #include "includes.h"
+#include "shadermanager.h"
+
 
 extern sf::Texture shadtexture;
-extern sf::Shader* getShader(int s);
 void loadshadertex();
-void initshaders();
-void drawshadebackground();
+void initshaders(ShaderManager &shaderman);
+void drawshadebackground(ShaderManager &shaderman);
 void toggleshaders();
-void updateshaders();
+void updateshaders(ShaderManager &shaderman);
+void loadShaderConfig();

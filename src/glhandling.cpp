@@ -235,7 +235,7 @@ void resizescreen(int x, int y)// LATER TODO
 
 void drawrectbox();
 
-void display()
+void display(ShaderManager &shaderman)
 {
 	window.setFramerateLimit(30);
 	window.setActive();
@@ -247,7 +247,7 @@ void display()
 	&& (thcfg->sub("objects")->sub("video")->getInt("drawhere")!=3)
 	#endif // WITHSFM
 	)
-   	drawshadebackground();
+   	drawshadebackground(shaderman);
         	
 	glPushMatrix();
 
