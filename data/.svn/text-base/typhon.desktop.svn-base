@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=typhon
-Comment=typhon - the themeable program launcher
-Exec=typhon
-Terminal=false
-Type=Application
-Icon=typhon
-StartupNotify=true
-Categories=System;Utility;
