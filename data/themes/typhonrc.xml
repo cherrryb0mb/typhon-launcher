@@ -57,10 +57,10 @@
         <disk3 typ="string" id="2">/tmp</disk3>
         <language typ="string" id="3">en</language>
         <networkdevice typ="string" id="4">lo</networkdevice>
-        <rssfeed typ="string" id="5">www.frostworx.de/?feed=rss2</rssfeed>
-        <onlinethemes typ="string" id="6">www.frostworx.de/typhonthemes</onlinethemes>
-        <scraperhost typ="string" id="7">www.orks-ev.de</scraperhost>
-        <scraperuri typ="string" id="8">thegamesdb.php</scraperuri>
+        <rssfeed typ="string" id="5">0.0.0.0</rssfeed>
+        <onlinethemes typ="string" id="6">0.0.0.0</onlinethemes>
+        <scraperhost typ="string" id="7">0.0.0.0</scraperhost>
+        <scraperuri typ="string" id="8">0.0.0.0</scraperuri>
     </strings>
     <tempdirs typ="map">
         <export typ="string" id="1">/dev/shm/typhonexport</export>
