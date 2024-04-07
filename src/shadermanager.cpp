@@ -36,7 +36,6 @@ bool ShaderManager::loadShaderFile(int id, std::string path, sf::Shader::Type sh
 	}
 }
 sf::Shader& ShaderManager::getShader(int id){
-	//if(m_shaderContainer[id].getNativeHandle() != 0) exit(1);
 	return m_shaderContainer[id];
 }
 
