@@ -235,9 +235,9 @@ void resizescreen(int x, int y)// LATER TODO
 
 void drawrectbox();
 
-void display(ShaderManager &shaderman)
+void display(ShaderManager &shaderman, int framerate)
 {
-	window.setFramerateLimit(30);
+	window.setFramerateLimit(framerate);
 	window.setActive();
 //	window.UseVerticalSync(false);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

@@ -10,7 +10,8 @@
         <thememenu typ="int" id="8">-1</thememenu>
         <width typ="int" id="6">1920</width>
         <windowposx typ="int" id="9">0</windowposx>
-        <windowposy typ="int" id="10">0</windowposy>
+	<windowposy typ="int" id="10">0</windowposy>
+	<framerate typ="int" id="11">60</framerate>
     </globalints>
     <globalswitches typ="map">
         <autoresolution typ="bool" id="0">true</autoresolution>

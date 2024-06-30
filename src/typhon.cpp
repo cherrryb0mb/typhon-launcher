@@ -181,7 +181,7 @@ int main (int argc, char *argv[])
 	{
 		input();
 		checktimer();
-		display(shaderman);
+		display(shaderman, tycfg->sub("globalints")->getInt("framerate"));
 	}
 // shutdown program
 

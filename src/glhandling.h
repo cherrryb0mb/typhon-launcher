@@ -3,7 +3,7 @@
 #include "glmenu.h"
 #include "shadermanager.h"
 
-void display(ShaderManager &shaderman);
+void display(ShaderManager &shaderman, int framerate);
 void rotateme(std::string obj);
 void setpos(std::string obj);
 void drawcube(float cubex, float cubey,float cubez,std::string obj,std::string bobj);
