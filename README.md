@@ -78,7 +78,12 @@ optional:
 Compiling:
 ===========
 If you have all dependencies installed (see "Requirements" in README)
-just run "cd build", "cmake ..", "make".
+just run:
+```
+cd build
+cmake .. 
+make
+```
 
 To en-/disable optional features just look at the top of CMakeList.txt.
 comments are quite self explanatory.
@@ -184,7 +189,7 @@ That's all for basic usage - also see Chapter "Saving" and Chapter "Config" if y
 
 Commandline options:
 =====================
-see typhon --help
+see ``typhon --help``
 
 Advanced usage:
 ================
@@ -374,16 +379,15 @@ the new theme (and its datadir) will be called like the archivename without the 
 
 Credits:
 =========
-    
-    - Frostworx themselves for the original typhon code
-	- Frostworx's wife for creating the default typhon theme
-	- all authors of the used 3rdparty cmake modules (look inside for source url)
-	- the authors of gource ( http://code.google.com/p/gource ) for their cool freetype fontclasses
-	- Lucas Soltic for sfeMovie ( https://github.com/Yalir/sfeMovie )
-	- ehamberg (http://hamberg.no/erlend) for his xrender screenshot code found on https://gist.github.com/767824
-	- Harleaquin aka superdau for contributions to the original typhon code
-    - An "anonymous contributor" for the dutch translation
-    - Kathrin Schaumburg for the default theme's gfx
-    - The authors of libp3t
-    - Me (cherrryb0mb) for picking this project up and maintaining it
+- Frostworx themselves for the original typhon code
+- Frostworx's wife for creating the default typhon theme
+- all authors of the used 3rdparty cmake modules (look inside for source url)
+- the authors of gource ( http://code.google.com/p/gource ) for their cool freetype fontclasses
+- Lucas Soltic for sfeMovie ( https://github.com/Yalir/sfeMovie )
+- ehamberg (http://hamberg.no/erlend) for his xrender screenshot code found on https://gist.github.com/767824
+- Harleaquin aka superdau for contributions to the original typhon code
+- An "anonymous contributor" for the dutch translation
+- Kathrin Schaumburg for the default theme's gfx
+- The authors of libp3t
+- Me (cherrryb0mb) for picking this project up and maintaining it
 
