@@ -1,11 +1,9 @@
 
-typhon-launcher(formerly Typhon)
-========================
-
+# <p align=center>typhon-launcher</p>
 
 Description:
 =============
-A slim and themeable OpenGL-based frontend, dashboard or program launcher.
+**typhon-launcher**(also known as Typhon) is a slim and themeable OpenGL-based frontend, dashboard or program launcher.
 It's meant to be easily used on Linux HTPCs, but also of course also
 works on standard desktops or as netbook-launcher.
 
