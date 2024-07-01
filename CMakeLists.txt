@@ -96,13 +96,11 @@ add_subdirectory(src)
 add_subdirectory(data)
 INSTALL ( FILES ${CMAKE_SOURCE_DIR}/LICENSE
 	DESTINATION ${CMAKE_DATA_PATH}/${APPNAME}/ )
-INSTALL ( FILES ${CMAKE_SOURCE_DIR}/old/AUTHORS
-	DESTINATION ${CMAKE_DATA_PATH}/${APPNAME}/ )
 INSTALL ( FILES ${CMAKE_SOURCE_DIR}/README.md
 	DESTINATION ${CMAKE_DATA_PATH}/${APPNAME}/ )
 
 
-MESSAGE(STATUS "<<< Gentoo configuration >>>
+MESSAGE(STATUS "<<< Configuration >>>
 Build type      ${CMAKE_BUILD_TYPE}
 Install path    ${CMAKE_INSTALL_PREFIX}
 Compiler flags:
